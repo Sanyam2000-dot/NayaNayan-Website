@@ -49,3 +49,45 @@ img {
     width: 640px;
     height: 360px;
 } */
+
+
+.footer{
+
+    position: absolute;
+    right: 0;
+    bottom:0;
+    left:0;
+    background-color: black;
+    
+      
+}
+/* footer */
+.footer {
+
+    position: absolute;
+    right: 0;
+    bottom:0;
+    left:0;
+    background-color: black;
+    padding: 20px;
+    background-color: #2E2E2E;
+    color: #FFF;
+       
+    
+}
+
+.footer p {
+
+    color: #FFF;      
+}
+
+.footer span{
+    text-align: center;
+}
+
+
+.footer span a {
+    margin-right: 20px; 
+    color: white;
+    font-size: 25px;
+}
