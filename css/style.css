@@ -1,0 +1,51 @@
+:root {
+    /* --primary-color: #6c757d; */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.list-non-bullet {
+    padding-top: 0.5rem;
+    list-style: none;
+    text-align: center;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 1 rem;
+}
+
+.navbar {
+    background-color: black
+}
+
+.navbar .link {
+    padding: 1rem 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .brand-name {
+    font-size: 2rem;
+    color: white;
+    text-align: left;
+    padding-left: 0.5rem;
+}
+
+.primary-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.7rem;
+    margin: 0.5rem;
+}
+
+
+/* 
+img {
+    width: 640px;
+    height: 360px;
+} */
