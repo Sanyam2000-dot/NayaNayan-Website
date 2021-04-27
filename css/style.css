@@ -1,3 +1,4 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 :root {
     /* --primary-color: #6c757d; */
 }
@@ -57,37 +58,65 @@ img {
     right: 0;
     bottom:0;
     left:0;
-    background-color: black;
+    background-color: #524b4b;
     
       
 }
+
+
+
 /* footer */
 .footer {
 
-    position: absolute;
+    position:relative;
     right: 0;
     bottom:0;
     left:0;
-    background-color: black;
     padding: 20px;
-    background-color: #2E2E2E;
+    background-color: #444;
     color: #FFF;
        
     
 }
 
-.footer p {
+.footer h2 {
 
     color: #FFF;      
 }
 
-.footer span{
+/* footer ending*/
+
+
+
+
+/* copyright */
+ .copyright {
+
+    position:relative;
+    
+    right: 0;
+    bottom:0;
+    left:0;
+    background-color: black;
+    padding: 20px;
+    color: #FFF;
+       
+    
+}
+
+.copyright p {
+
+    color: #FFF;      
+}
+
+.copyright span{
     text-align: center;
 }
 
 
-.footer span a {
+.copyright span a {
     margin-right: 20px; 
     color: white;
     font-size: 25px;
-}
+} 
+/* copyright ending*/
