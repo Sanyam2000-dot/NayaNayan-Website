@@ -8,6 +8,7 @@ body {
     padding: 0;
 }
 
+
 .list-non-bullet {
     padding-top: 0.5rem;
     list-style: none;
@@ -50,6 +51,55 @@ img {
     width: 640px;
     height: 360px;
 } */
+
+
+
+/* what we do start */
+.what-we-do h1,p{
+  text-align: center;
+}
+
+.what-we-do .title{
+  margin-bottom: 30px;
+}
+
+.what-we-do{
+  padding: 50px;
+}
+.what-we-do .row .event-box{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.what-we-do .row .event-box img{
+  margin-bottom: 20px;
+  margin-right: 20px;
+  width: 100%;
+}
+
+.event-box h4{
+  text-align: center;
+}
+
+ .what-we-do .btn{
+  
+    color: #ffffff;
+    padding: 0.8rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: black;
+  
+} 
+
+.what-we-do .btn:hover{
+  color: red;
+}
+
+/* what we do end */
+
 
 
 /* about-us */
@@ -105,9 +155,6 @@ img {
   }
   
 
-  .team .card {
-    background-color: rgba(255, 255, 255, 0.12);
-  }
   
   .cards {
     display: flex;
