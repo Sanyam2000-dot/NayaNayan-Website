@@ -20,18 +20,18 @@ body {
 }
 
 .navbar {
-    background-color: black
+    background-color: white
 }
 
 .navbar .link {
     padding: 1rem 1rem;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .navbar .brand-name {
     font-size: 2rem;
-    color: white;
+    color: black;
     text-align: left;
     padding-left: 0.5rem;
 }
