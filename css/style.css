@@ -306,6 +306,16 @@ p {
     
 }
 
+.meet-team h1{
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.meet-team p{
+    font-size: 1.25rem;
+    margin-bottom: 25px;
+}
+
 
 .flip-card {
     background-color: transparent;
