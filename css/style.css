@@ -59,27 +59,32 @@ img {
 } */
 
 
-/* what we do start */
+/* why did we started start */
 
-.what-we-do h1,
+.why-start h1{
+    font-weight: bold;
+   
+}
+
+.why-start h1,
 p {
     text-align: center;
 }
 
-.what-we-do .title {
+.why-start .title {
     margin-bottom: 30px;
 }
 
-.what-we-do {
+.why-start {
     padding: 50px;
 }
 
-.what-we-do .row .event-box {
+.why-start .row .event-box {
     text-align: center;
     margin-bottom: 20px;
 }
 
-.what-we-do .row .event-box img {
+.why-start .row .event-box img {
     margin-bottom: 20px;
     margin-right: 20px;
     width: 100%;
@@ -89,7 +94,7 @@ p {
     text-align: center;
 }
 
-.what-we-do .btn {
+.why-start .btn {
     color: #ffffff;
     padding: 0.8rem;
     font-size: 14px;
@@ -100,12 +105,12 @@ p {
     background-color: black;
 }
 
-.what-we-do .btn:hover {
+.why-start .btn:hover {
     color: red;
 }
 
 
-/* what we do end */
+/* why did we started ending*/
 
 
 /* about-us */
@@ -277,6 +282,7 @@ p {
     position: relative;
     height: 0;
     border: 2px solid grey;
+    
 }
 
 .map-responsive iframe {
@@ -302,7 +308,7 @@ p {
 .meet-team{
     background-color: black;
     color: white;
-    padding: 55px;
+    padding: 50px;
     
 }
 
