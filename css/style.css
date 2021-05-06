@@ -23,15 +23,12 @@ body {
     background-color: white
 }
 
-
-
 .navbar .link {
     padding: 1rem 1rem;
     text-decoration: none;
     color: black;
     font-weight: 600;
     font-size: 1.25rem;
-
 }
 
 .navbar .brand-name {
@@ -40,7 +37,6 @@ body {
     text-align: left;
     padding-left: 0.5rem;
     font-weight: bold;
-
 }
 
 .primary-btn {
@@ -61,9 +57,8 @@ img {
 
 /* why did we started start */
 
-.why-start h1{
+.why-start h1 {
     font-weight: bold;
-   
 }
 
 .why-start h1,
@@ -282,7 +277,6 @@ p {
     position: relative;
     height: 0;
     border: 2px solid grey;
-    
 }
 
 .map-responsive iframe {
@@ -304,32 +298,29 @@ p {
 
 /* meet our team startig */
 
-
-.meet-team{
+.meet-team {
     background-color: black;
     color: white;
-    padding: 50px;
-    
+    /* padding: 50px; */
 }
 
-.meet-team h1{
+.meet-team h1 {
     font-size: 3rem;
     margin-bottom: 15px;
 }
 
-.meet-team p{
+.meet-team p {
     font-size: 1.25rem;
     margin-bottom: 25px;
 }
-
 
 .flip-card {
     background-color: transparent;
     width: 300px;
     height: 300px;
     border: 1px solid #f1f1f1;
-    /* perspective: 1000px; */
-    margin: 10px;
+    perspective: 1000px;
+    margin: .5rem;
 }
 
 .flip-card-inner {
@@ -357,30 +348,32 @@ p {
 .flip-card-front {
     background-color: #bbb;
     color: black;
+    display: flex;
+    justify-content: center;
 }
 
 .flip-card-back {
-    background-color:white;
+    background-color: white;
     color: black;
     transform: rotateY(180deg);
-
 }
 
-.flip-card-back h1{
+.flip-card-back h2 {
     text-align: center;
-    margin-top: 40px;
+    word-wrap: break-word;
+    padding-top: 2rem;
 }
 
-
-.flip-card-back p{
-
-    margin-top: 40px;
-    
+.flip-card-back p {
+    padding: 20px;
+    text-align: center;
 }
+
 .cards-conatiner {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 1rem;
 }
 
 
@@ -393,7 +386,6 @@ p {
     padding: 20px;
     background-color: #414a4c;
     color: white;
- 
 }
 
 .blog-container h1 {
