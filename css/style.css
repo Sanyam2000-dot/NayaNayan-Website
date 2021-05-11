@@ -193,8 +193,21 @@ p {
 
 
 
+.objective{
+    background-color:#f0f0f0;
+    padding-top: 75px;
+    padding-bottom: 55px;
+    
+}
 
+.objective .left p{
+    text-align: left;
+    
+}
 
+.objective .right p{
+    text-align: left;
+}
 
 /* objective end */
 
@@ -504,14 +517,14 @@ p {
 } */
 
 
-/* 
-faq start */
+/* faq start */
 
 
 .faq{
     background-color: black;
-    padding: 40px;
     color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
 }
 
@@ -563,5 +576,6 @@ details[open] summary::after{
   letter-spacing: 1.5;
 }
 
-/* 
-faq end */
+/* faq end */
+
+
