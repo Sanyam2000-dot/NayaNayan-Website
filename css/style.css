@@ -1,9 +1,7 @@
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-
 :root {
     /* --primary-color: #6c757d; */
 }
-
 
 body {
     margin: 0;
@@ -91,7 +89,7 @@ p {
     text-align: center;
 }
 
-.why-start .card{
+.why-start .card {
     background-color: white;
     border-radius: 0.25rem;
     box-shadow: 0 1px 6px rgb(61 65 84 / 15%);
@@ -100,12 +98,10 @@ p {
     overflow: hidden;
 }
 
-.why-start .card:hover{
+.why-start .card:hover {
     /* opacity: .5; */
     transform: scale(1.05);
 }
-
-
 
 .why-start .btn {
     color: #ffffff;
@@ -120,20 +116,17 @@ p {
 }
 
 .why-start .btn:hover {
-
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
     color: white;
-    
 }
-
-
 
 
 /* why did we started ending*/
 
 
 /* about-us */
+
 
 /* .about-us h2 {
     text-align: center;
@@ -156,75 +149,57 @@ p {
     display: block;
 } */
 
-
-.about-us{
+.about-us {
     padding-top: 50px;
     padding-bottom: 30px;
 }
 
-.about-us .right-content h1,h6{
-    
-    text-align: center;
-
-
-}
-
-.about-us .left-image{
+.about-us .right-content h1,
+h6 {
     text-align: center;
 }
 
-
-.about-us .left-image img{
-     height: 300px;
-     width:300px;
+.about-us .left-image {
+    text-align: center;
 }
 
-.about img{
+.about-us .left-image img {
+    height: 300px;
+    width: 300px;
+}
 
+.about img {
     width: 1750px;
     height: 200px;
-
 }
+
 
 /* about-us ending*/
 
 
 /* objective start */
 
-
-
-.objective{
-    background-color:#f0f0f0;
+.objective {
+    background-color: #f0f0f0;
     padding-top: 75px;
     padding-bottom: 55px;
-    
 }
 
-.objective .left p{
+.objective .left p {
     text-align: left;
-    
 }
 
-.objective .right p{
+.objective .right p {
     text-align: left;
 }
+
 
 /* objective end */
-
-
-
-
-
-
-
-
-
 
 
 /* our team starting */
 
 .team {
-    
     background-color: #EDEDED;
     padding: 100px;
 }
@@ -519,63 +494,77 @@ p {
 
 /* faq start */
 
-
-.faq{
+.faq {
     background-color: black;
     color: white;
     padding-top: 30px;
     padding-bottom: 30px;
-
 }
 
-.faq h1{
-  text-align: center;
-  font-size: 3rem;
-  padding-bottom: 0.25em;
-  /* border-bottom: 1px solid silver; */
-  /* border-image: linear-gradient(to right, transparent 20%, darkslategrey, transparent 80%)30; */
+.faq h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 0.25em;
+    /* border-bottom: 1px solid silver; */
+    /* border-image: linear-gradient(to right, transparent 20%, darkslategrey, transparent 80%)30; */
 }
 
- details{
-  margin-bottom: 1rem;
-  padding: 1rem;
-  border-radius: 0.25rem;
-  border: 1px solid silver;
-}
-summary{
-      list-style-type: circle;
-  font-size: 1.25rem;
-  font-weight: bold;
-  cursor: pointer; 
-  position: relative;
-        outline: none;
-        color: silver;
+details {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid silver;
 }
 
+summary {
+    list-style-type: circle;
+    font-size: 1.25rem;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    color: silver;
+}
 
-summary::after{
-  content: "+";
-  padding: 0.5rem;
-  position: absolute;
-  right: 0.25rem;
-  top: -0.5rem;
-  color: whitesmoke;
+summary::after {
+    content: "+";
+    padding: 0.5rem;
+    position: absolute;
+    right: 0.25rem;
+    top: -0.5rem;
+    color: whitesmoke;
 }
-details[open]{
-        background: whitesmoke;
+
+details[open] {
+    background: whitesmoke;
 }
-details[open] summary{
+
+details[open] summary {
     color: dimgrey;
 }
-details[open] summary::after{
-  content: "-";
+
+details[open] summary::after {
+    content: "-";
 }
 
-.faq p{
-  color: dimgrey;
-  letter-spacing: 1.5;
+.faq p {
+    color: dimgrey;
+    letter-spacing: 1.5;
 }
+
 
 /* faq end */
 
 
+/* contact us */
+
+.contact-us {
+    padding: 4rem
+}
+
+.send-btn {
+    margin-top: 2rem;
+}
+
+
+/* contact us ending */
