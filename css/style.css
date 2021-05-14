@@ -1,4 +1,5 @@
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap');
 :root {
     /* --primary-color: #6c757d; */
 }
@@ -6,6 +7,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .list-non-bullet {
@@ -17,6 +19,7 @@ body {
 .list-item-inline {
     display: inline;
     padding: 1 rem;
+    font-style: bold;
 }
 
 .navbar {
@@ -33,9 +36,9 @@ body {
 
 .navbar .brand-name {
     font-size: 2.5rem;
+    margin-left: 0.5em;
     color: black;
     text-align: left;
-    padding-left: 0.5rem;
     font-weight: bold;
 }
 
@@ -152,10 +155,15 @@ p {
 .about-us {
     padding-top: 50px;
     padding-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
-.about-us .right-content h1,
-h6 {
+.about-us .right-content h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.about-us .right-content h6 {
     text-align: center;
 }
 
@@ -164,13 +172,18 @@ h6 {
 }
 
 .about-us .left-image img {
-    height: 300px;
-    width: 300px;
+    width: 400px;
+    height: 350px;
 }
 
 .about img {
     width: 1750px;
     height: 200px;
+}
+
+.about-us-content {
+    font-size: 1.5rem;
+    /* font-weight: 600; */
 }
 
 
@@ -206,6 +219,7 @@ h6 {
 
 .meet-team h1,
 p {
+    padding-top: 1rem;
     text-align: center;
 }
 
@@ -444,8 +458,8 @@ p {
 
 .blog-container {
     padding: 20px;
-    background-color: #414a4c;
-    color: white;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    color: black;
 }
 
 .blog-container h1 {
@@ -454,6 +468,21 @@ p {
 
 .writer {
     text-align: right;
+}
+
+#more {
+    display: none;
+}
+
+#myBtn {
+    float: right;
+    background-color: black;
+    color: white;
+}
+
+.badge {
+    color: black;
+    background-color: black;
 }
 
 
@@ -564,6 +593,10 @@ details[open] summary::after {
 
 .send-btn {
     margin-top: 2rem;
+}
+
+.my-4 {
+    font-size: 4rem;
 }
 
 
