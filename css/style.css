@@ -207,7 +207,7 @@ p {
 }
 
 .about-us-content {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     /* font-weight: 600; */
 }
 
@@ -243,6 +243,7 @@ p {
 }
 
 .meet-team h1 {
+    padding-top: 30px;
     font-weight: 700;
     font-size: 2.5rem;
 }
