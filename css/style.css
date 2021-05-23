@@ -85,6 +85,7 @@ img {
 
 .why-start h1 {
     font-weight: bold;
+    font-size: 2.5rem;
 }
 
 .why-start h1,
@@ -181,8 +182,9 @@ p {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-.about-us .right-content h1 {
-    font-size: 3rem;
+.about-us h1 {
+    font-weight: bold;
+    font-size: 2.8rem;
     text-align: center;
 }
 
@@ -240,6 +242,10 @@ p {
     padding: 100px;
 }
 
+.meet-team h1{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
 .meet-team h1,
 p {
     padding-top: 1rem;
@@ -487,6 +493,9 @@ p {
 
 .blog-container h1 {
     text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-bottom: 30px;
 }
 
 .writer {
@@ -497,10 +506,11 @@ p {
     display: none;
 }
 
-#myBtn {
-    float: right;
+#myBtn{
+    float: left;
     background-color: black;
     color: white;
+    text-align: right;
 }
 
 .badge {
@@ -547,7 +557,7 @@ p {
 /* faq start */
 
 .faq {
-    background-color: rgba(0, 0, 0, 9);
+    background-color: rgba(0, 0, 0, 0.9);
     color: white;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -555,7 +565,8 @@ p {
 
 .faq h1 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    font-weight: bold;
     padding-bottom: 0.25em;
     /* border-bottom: 1px solid silver; */
     /* border-image: linear-gradient(to right, transparent 20%, darkslategrey, transparent 80%)30; */
@@ -611,11 +622,15 @@ details[open] summary::after {
 /* contact us */
 
 .contact-us {
-    padding: 4rem
+    padding: 3rem
 }
 
+.contact-us p{
+    font-size: 19px;
+}
 .send-btn {
     margin-top: 2rem;
+   
 }
 
 .my-4 {
