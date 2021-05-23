@@ -242,10 +242,11 @@ p {
     padding: 100px;
 }
 
-.meet-team h1{
+.meet-team h1 {
     font-weight: 700;
     font-size: 2.5rem;
 }
+
 .meet-team h1,
 p {
     padding-top: 1rem;
@@ -506,11 +507,17 @@ p {
     display: none;
 }
 
-#myBtn{
+
+/* #myBtn {
     float: left;
     background-color: black;
     color: white;
     text-align: right;
+} */
+
+.blogBtn {
+    background-color: black;
+    color: white;
 }
 
 .badge {
@@ -625,12 +632,12 @@ details[open] summary::after {
     padding: 3rem
 }
 
-.contact-us p{
+.contact-us p {
     font-size: 19px;
 }
+
 .send-btn {
     margin-top: 2rem;
-   
 }
 
 .my-4 {
