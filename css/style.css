@@ -487,11 +487,11 @@ p {
 
 /* blog starting */
 
-.blog-container {
+
+/* .blog-container {
     padding: 20px;
-    /* background-color: rgba(0, 0, 0, 0.1); */
     color: black;
-}
+} */
 
 .blog-container h1 {
     text-align: center;
@@ -500,12 +500,31 @@ p {
     padding-bottom: 30px;
 }
 
-.writer {
+
+/* .writer {
     text-align: right;
-}
+} */
 
 #more {
     display: none;
+}
+
+.blogs h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.blogs .blog h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 27px;
+}
+
+.blogs .blog p {
+    font-size: 19;
 }
 
 #more2 {
@@ -517,12 +536,21 @@ p {
 }
 
 
-/* #myBtn {
+/* .blogs .blog .writer {
+    font-weight: 600;
+} */
+
+
+/* .blogs .blog button {
+    float: right
+} */
+
+#myBtn {
     float: left;
     background-color: black;
     color: white;
     text-align: right;
-} */
+}
 
 .blogBtn {
     background-color: black;
