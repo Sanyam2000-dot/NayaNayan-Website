@@ -487,9 +487,8 @@ p {
 
 /* blog starting */
 
-.blog-container {
+/* .blog-container {
     padding: 20px;
-    /* background-color: rgba(0, 0, 0, 0.1); */
     color: black;
 }
 
@@ -506,7 +505,36 @@ p {
 
 #more {
     display: none;
+} */
+
+
+.blogs h1{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
+
+.blogs .blog h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 27px;
+    
+}
+
+.blogs .blog p{
+    font-size:19;
+}
+
+.blogs .blog .writer{
+    font-weight: 600;
+}
+
+/* .blogs .blog button{
+    float:right
+} */
 
 
 /* #myBtn {
@@ -516,7 +544,7 @@ p {
     text-align: right;
 } */
 
-.blogBtn {
+/* .blogBtn {
     background-color: black;
     color: white;
 }
@@ -524,7 +552,7 @@ p {
 .badge {
     color: black;
     background-color: black;
-}
+} */
 
 
 /* blogs ending */
